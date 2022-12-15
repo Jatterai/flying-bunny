@@ -1,0 +1,33 @@
+header {
+	background: #fefefe;
+	box-shadow: 0 0 10px grey;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+.nav {
+	display: flex;
+}
+.link {
+	font-size: 1.4rem;
+	padding: 0.5em 0.7em;
+	cursor: pointer;
+	border-right: 1px solid rgb(225, 224, 224);
+	transition: 200ms;
+
+	&:first-child {
+		border-left: 1px solid rgb(225, 224, 224);
+	}
+	&:visited {
+		color: inherit;
+	}
+	&:hover {
+		background-color: rgba(207, 207, 207, 0.326);
+	}
+
+	&.active {
+		color: hotpink;
+	}
+}

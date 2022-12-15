@@ -1,0 +1,30 @@
+.game {
+	background: rgba(255, 105, 180, 0.295);
+	background-blend-mode: overlay;
+	flex: 1 1 auto;
+	min-height: 320px;
+	position: relative;
+}
+
+.container {
+	padding-top: 40px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 30px;
+	text-align: center;
+	line-height: 1.4;
+	font-weight: 700;
+	color: rgb(122, 13, 89);
+	margin-bottom: 1em;
+}
+
+.counter {
+	font-size: 24px;
+	font-weight: 700;
+}
