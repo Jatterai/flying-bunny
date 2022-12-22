@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router';
 import Header from '../Header/Header.jsx';
+import Footer from '../Footer/Footer.jsx'
 
 
 const Layout = ({ children }) => {
@@ -10,9 +11,7 @@ const Layout = ({ children }) => {
 			<main>
 				<Outlet />
 			</main>
-			<footer>
-				footer
-			</footer>
+			<Footer />
 		</>
 	)
 }

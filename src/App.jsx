@@ -11,7 +11,7 @@ function App() {
 		<Routes>
 			<Route path='/' element={<Layout />}>
 				<Route path='' element={<Game />}></Route>
-				<Route path='About' element={<>Im sad</>} />
+				<Route path='About' element={<>There's nothing here, but look, i can do React Router:)</>} />
 				<Route path='*' element={<>404</>}></Route>
 			</Route>
 		</Routes>

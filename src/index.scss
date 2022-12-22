@@ -63,6 +63,7 @@ button::-moz-focus-inner {
 
 a,
 a:visited {
+	color: inherit;
 	text-decoration: none;
 }
 
@@ -91,7 +92,7 @@ h6 {
 :root {
 	font-family: "Ubuntu Mono", monospace;
 	font-size: 1rem;
-	background-image: linear-gradient(rgb(237, 245, 246), rgb(255, 232, 236));
+	background-image: linear-gradient(to top, powderblue 0%, rgb(225, 205, 243) 100%);
 }
 
 body {

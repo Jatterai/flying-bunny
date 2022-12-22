@@ -10,7 +10,7 @@ const Header = () => {
 			<div className={style.container + ' container'}>
 				<nav className={style.nav}>
 					<NavLink className={linkClassName} to='/'>Home</NavLink>
-					<NavLink className={linkClassName} to={'/about'}>About me</NavLink>
+					<NavLink className={linkClassName} to={'/about'}>Page 1</NavLink>
 				</nav>
 			</div>
 		</header>

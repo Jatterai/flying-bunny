@@ -1,3 +1,5 @@
+@import url("./assets/fonts/icons/style.css");
+
 #root {
 	position: relative;
 	width: 100%;
@@ -5,4 +7,32 @@
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+	&:before {
+		content: "";
+		position: absolute;
+		width: 15%;
+		aspect-ratio: 1 / 1;
+		border-radius: 50%;
+		background: rgb(255, 255, 188);
+		z-index: 1;
+		transform: translate(-30%, -30%);
+
+		animation-name: sun;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	& > * {
+		z-index: 2;
+	}
+}
+
+@keyframes sun {
+	0% {
+		box-shadow: 0 0 20px 3px rgb(255, 238, 141);
+	}
+	100% {
+		box-shadow: 0 0 30px 3px rgb(254, 247, 197);
+	}
 }
